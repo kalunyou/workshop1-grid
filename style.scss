@@ -10,6 +10,7 @@ body {
   background-color: gray;
   display: grid;
   border-bottom: 1px solid black;
+  position: fixed;
 }
 
 .top-bar-item {
@@ -62,7 +63,7 @@ body {
 .suggestions {
   background-color: silver;
   padding-left: 35px;
-  padding-top: 35px;
+  padding-top: 110px;
 }
 
 .account-swt {
@@ -146,4 +147,107 @@ body {
 
 #acc-follow {
   color: gray;
+}
+
+.story {
+  width: 100%;
+  height: 120px;
+  background-color: brown;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin-top: 85px;
+}
+
+.story-item {
+  height: 100%;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.story-item img {
+  border-radius: 50%;
+}
+
+.story-detail {
+  display: grid;
+  grid-template-rows: 75px 1fr;
+  justify-items: center;
+}
+
+.story-detail h5 {
+  margin: 0;
+  padding-top: 5px;
+}
+
+.post {
+  background-color: cadetblue;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.post-profile {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.post-profile img {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.account-detail-post {
+  padding-left: 30px;
+  line-height: 0.05px;
+}
+
+.post-pic {
+  padding-bottom: 5px;
+}
+
+.post-action {
+  display: grid;
+  grid-template-columns: 1fr 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.post-action-group {
+  width: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+#section-line {
+  border: 0.5px solid lightgray;
+  width: 100%;
+}
+
+.post-comment-action {
+  display: grid;
+  grid-template-columns: 1fr 25px;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.post-comment-input {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+}
+
+.post-comment-input input {
+  margin-left: 5px;
+  border-color: transparent;
+}
+
+#post {
+  color: rgb(0, 185, 241);
+  width: 150px;
 }
