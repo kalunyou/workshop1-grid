@@ -8,25 +8,96 @@
   </head>
   <body>
     <div class="top-bar">
-      <img src="./images/InstagramLogo.png" width="100" height="28" />
-      <input type="text" placeholder="Search" />
-      <div class="menu">
-        <img src="./images/home.png" height="25" width="25" />
-        <img src="./images/comment.png" height="25" width="25" />
-        <img src="./images/add.png" height="25" width="25" />
-        <img src="./images/navigation.png" height="25" width="25" />
-        <img src="./images/heart.png" height="25" width="25" />
+      <div class="top-bar-item">
         <img
-          src="./images/301375987_1143419516254843_1120587938116159725_n.jpg"
-          height="25"
-          width="25"
-          id="profile"
+          src="./images/InstagramLogo.png"
+          width="100"
+          height="28"
+          id="logo"
         />
+        <input type="text" placeholder="Search" id="search" />
+        <div class="menu">
+          <img src="./images/home.png" height="25" width="25" />
+          <img src="./images/comment.png" height="25" width="25" />
+          <img src="./images/add.png" height="25" width="25" />
+          <img src="./images/navigation.png" height="25" width="25" />
+          <img src="./images/heart.png" height="25" width="25" />
+          <img
+            src="./images/301375987_1143419516254843_1120587938116159725_n.jpg"
+            height="25"
+            width="25"
+            id="profile"
+          />
+        </div>
       </div>
     </div>
     <div class="container">
       <div class="feed">feed</div>
-      <div class="suggestions">suggestions</div>
+      <div class="suggestions">
+        <div class="account-swt">
+          <div class="account">
+            <img
+              src="./images/301375987_1143419516254843_1120587938116159725_n.jpg"
+              width="60"
+              height="60"
+              id="profile-acc-swt"
+            />
+            <div class="account-detail">
+              <h5 id="acc-name">JoodMorning</h5>
+              <h5 id="acc-bio">Jood</h5>
+            </div>
+          </div>
+          <button id="swt-btn">Switch</button>
+        </div>
+        <div class="acc-suggestions">
+          <div class="suggess-txt">
+            <h4>Suggestions For You</h4>
+            <button id="suggess-btn">See All</button>
+          </div>
+          <div class="suggess-acc-item">
+            <div class="suggess-acc">
+              <img
+                src="./images/301543093_1546737722421490_7556045845933081424_n.jpg"
+                width="35"
+                height="35"
+              />
+              <div class="account-sgt-detail">
+                <h5 id="acc-sgt-name">Ford</h5>
+                <h5 id="acc-follow">Followed by ... + 7 more</h5>
+              </div>
+            </div>
+            <button id="follow-btn">Follow</button>
+          </div>
+          <div class="suggess-acc-item">
+            <div class="suggess-acc">
+              <img
+                src="./images/301543093_1546737722421490_7556045845933081424_n.jpg"
+                width="35"
+                height="35"
+              />
+              <div class="account-sgt-detail">
+                <h5 id="acc-sgt-name">Ford</h5>
+                <h5 id="acc-follow">Followed by ... + 7 more</h5>
+              </div>
+            </div>
+            <button id="follow-btn">Follow</button>
+          </div>
+          <div class="suggess-acc-item">
+            <div class="suggess-acc">
+              <img
+                src="./images/301543093_1546737722421490_7556045845933081424_n.jpg"
+                width="35"
+                height="35"
+              />
+              <div class="account-sgt-detail">
+                <h5 id="acc-sgt-name">Ford</h5>
+                <h5 id="acc-follow">Followed by ... + 7 more</h5>
+              </div>
+            </div>
+            <button id="follow-btn">Follow</button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

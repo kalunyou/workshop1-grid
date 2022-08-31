@@ -2,6 +2,7 @@ body {
   background-color: white;
   height: 100vh;
   margin: 0;
+  padding: 0;
 }
 
 .top-bar {
@@ -10,14 +11,27 @@ body {
   background-color: gray;
   display: -ms-grid;
   display: grid;
+  border-bottom: 1px solid black;
+}
+
+.top-bar-item {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
-  border-bottom-color: black;
-  border-bottom-width: 10px;
+}
+
+#logo {
+  padding-left: 205px;
+}
+
+#search {
+  margin-left: -35px;
 }
 
 .top-bar input {
@@ -40,6 +54,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-left: -220px;
 }
 
 #profile {
@@ -63,6 +78,112 @@ body {
 .suggestions {
   background-color: silver;
   padding-left: 35px;
-  padding-top: 110px;
+  padding-top: 35px;
+}
+
+.account-swt {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.account {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.account-detail {
+  padding-left: 20px;
+  line-height: 0.05px;
+}
+
+#acc-bio {
+  color: gray;
+}
+
+#swt-btn {
+  color: #00b9f1;
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 70px;
+}
+
+#profile-acc-swt {
+  border-radius: 50%;
+}
+
+.account-suggestions {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 10px;
+}
+
+.suggess-txt {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  color: gray;
+}
+
+#suggess-btn {
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 80px;
+}
+
+.suggess-acc-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 1fr;
+      grid-template-columns: 200px 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.suggess-acc {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30px 1fr;
+      grid-template-columns: 30px 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.suggess-acc img {
+  border-radius: 50%;
+}
+
+.account-sgt-detail {
+  padding-left: 20px;
+  line-height: 0.05px;
+}
+
+#follow-btn {
+  background-color: transparent;
+  border-color: transparent;
+  color: #00b9f1;
+  margin-left: 30px;
+}
+
+#acc-follow {
+  color: gray;
 }
 /*# sourceMappingURL=style.css.map */
