@@ -67,7 +67,7 @@ body {
         margin-bottom: 15px;
         margin-top: 25px;
         display: grid;
-        grid-template-columns: repeat(6, auto);
+        grid-auto-flow: column;
         margin-top: 85px;
         overflow: auto;
         .story-item {

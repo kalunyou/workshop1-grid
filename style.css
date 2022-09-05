@@ -94,8 +94,7 @@ body .container .feed .story {
   margin-top: 25px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[6];
-      grid-template-columns: repeat(6, auto);
+  grid-auto-flow: column;
   margin-top: 85px;
   overflow: auto;
 }
