@@ -127,7 +127,7 @@ body {
           .post-action-group {
             width: 100px;
             display: grid;
-            grid-template-columns: repeat(3, auto);
+            grid-auto-flow: column;
           }
         }
         #section-line {
@@ -145,6 +145,7 @@ body {
             grid-template-columns: 25px 1fr;
           }
           #post {
+            margin-left: 5px;
             color: rgb(0, 185, 241);
             width: 150px;
           }

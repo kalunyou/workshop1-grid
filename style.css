@@ -184,8 +184,7 @@ body .container .feed .post .post-action .post-action-group {
   width: 100px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[3];
-      grid-template-columns: repeat(3, auto);
+  grid-auto-flow: column;
 }
 
 body .container .feed .post #section-line {
@@ -213,6 +212,7 @@ body .container .feed .post .post-comment-action .post-comment-input {
 }
 
 body .container .feed .post .post-comment-action #post {
+  margin-left: 5px;
   color: #00b9f1;
   width: 150px;
 }
