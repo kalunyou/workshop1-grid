@@ -122,9 +122,10 @@ body .container .feed .story .story-item .story-detail img {
   border-radius: 50%;
 }
 
-body .container .feed .story .story-item .story-detail h5 {
+body .container .feed .story .story-item .story-detail span {
+  font-size: 14px;
+  font-weight: bold;
   margin: 0;
-  padding-top: 5px;
 }
 
 body .container .feed .post {
